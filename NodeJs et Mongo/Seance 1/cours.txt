@@ -1,0 +1,19 @@
+node js: est un envirenement d'execution js w 5alalo el 7oriya bech n'executer bara mel brawser 
+	ecrire en c++ 3andow barcha packeg w moch marbout bel backend
+
+nodejs api: bobliotheque javascript pour consevoir de Serveur web
+
+V8(chrome):-moteur de google chrome w hewa eli bech ya3ml eli compilation et execution  du code javascript
+	   -eli fel nodejs raw maya3rafch el DOM ema eli fel brawser ya3ref el DOM
+
+le file test.js tester le node js avec commande et cmd ,dons cmd ecrire node test.js
+
+NPM:outil en ligne de commande qui permer d'installer du package en javascript ou typescript (3ibara magasin mta3 el node w najmo e7na na3lmlo pachage w ntal3ouih)
+	*)npm init => initailisation de node js w tetsna3 package .json w hewa el id mta3 el project (npm init -y)
+	
+	
+
+
+
+
+
