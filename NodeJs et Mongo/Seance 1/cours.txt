@@ -8,10 +8,60 @@ V8(chrome):-moteur de google chrome w hewa eli bech ya3ml eli compilation et exe
 
 le file test.js tester le node js avec commande et cmd ,dons cmd ecrire node test.js
 
-NPM:outil en ligne de commande qui permer d'installer du package en javascript ou typescript (3ibara magasin mta3 el node w najmo e7na na3lmlo pachage w ntal3ouih)
-	*)npm init => initailisation de node js w tetsna3 package .json w hewa el id mta3 el project (npm init -y)
+NPM (node package manager):outil en ligne de commande qui permer d'installer du package en javascript ou typescript (3ibara magasin mta3 el node w najmo e7na na3lmlo pachage w ntal3ouih)
+	*)npm init => initailisation de node js w tetsna3 package .json w hewa el id mta3 el project (npm init -y) w el -y (passer tous le question avec yes)
+	*)npm run (nom de script lei fel scripts fel package.json)
 	
 	
+framework:donne une architecture pre defini w 3andekch el 7a9 tbadel fel package 
+library : il me donne tous les composente n'esesaire etde fair une architekture selon notre besoin libray bech ta3ml enty el project mta3ek mel 0
+
+expressJS: framework BECH YSAHEL EL 5EDMa w ya3tina bech nesn3o el architektur
+	
+
+
+
+
+********************************MONGODB*******************************************
+mongodb:
+
+
+collection{documents}
+
+base de donnee Bson non sql 
+
+collection et un ensemble de document 
+objet binaire(bson)
+
+{
+	_id: generate le id 
+	"nom":"ahmed"
+	"age":25
+}
+
+
+concepte de schema: n'est pas fixé en avance => 3ibara 3ala attribut mta3 el bson mta3na
+
+MongoDB vs db relational:
+-)n'est pas de jointures 
+-)najem n7el objet de na3ml fi westo objet a5or
+-)manuellemnt (mafamech el manytoan w el wantomany)
+-)
+
+populate mongoose: ychouf ken fama id fel table user 
+
+nosql:désigne les différents types de bases de données non relationnelles
+
+
+
+db.addcollection('nom')=>create collection
+db.user.insertOne({name:"alex",email:"test@hello.com"})=> creation dons document 
+db.user.find() => bech tchouf eli 3andek
+db.user.updateOne({name:"alex"},{$set:{name:"aziz"}})=> update collection user de document de name alex 
+db.user.deleteOne({name:"aziz"})=> delete le document aziz
+db.user.dataSize() => taille de collection
+
+
 
 
 
