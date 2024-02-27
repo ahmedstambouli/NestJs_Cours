@@ -5,6 +5,7 @@ const dotenv=require('dotenv');
 const auth=require('./routes/auth');
 
 const productRoute=require("./routes/products.js")
+const VoitureRoute=require("./routes/VoitureRoutes.js")
 
 //innstance from express
 const app=express();
@@ -20,6 +21,8 @@ app.use(bodyParse.json( ));
 app.use('/auth',auth);
 
 app.use("/product",productRoute);
+
+app.use("/voiture",VoitureRoute)
 
 //lazem n7oto el '/' fel le5er 5ater raw 3adi ya9ra ken el get eli fiha '/' yensa lo5rin 
 
