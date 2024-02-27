@@ -1,11 +1,14 @@
 const express =require("express");
-
+const bcrypt=require('bcrypt');
+const User =require('../models/user')
+const jwt=require('jsonwebtoken');
 const router=express.Router();
 
 router.post("/login",(req,res)=>{
     // console.log(req);
     res.send(req.body)
 })
+
 
 
 

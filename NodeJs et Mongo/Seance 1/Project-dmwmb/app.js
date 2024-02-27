@@ -50,6 +50,7 @@ app.get("/redirect",(req,res)=>{
 //methode get or default before run server
 app.get("/",(req,res)=>{
     res.send("Hello World");
+    
 
 });
 
